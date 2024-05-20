@@ -11,7 +11,7 @@ export default function HomePage() {
   }
 
   return (
-    <main className="h-screen w-screen">
+    <main className="h-screen w-screen overflow-auto overflow-x-hidden">
       <NavbarComp />
       <div className="text-3xl md:text-7xl flex flex-col justify-center items-center py-8 space-y-4">
         <div className="relative p-20">
