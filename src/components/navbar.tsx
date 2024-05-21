@@ -10,7 +10,7 @@ export default function NavbarComp() {
     <div className="navbar bg-base-100 flex flex-row justify-between items-center">
       <a className="btn btn-ghost text-xl">Synthix</a>
       <div>
-        <button className="btn btn-primary">{user && isLoaded ? <UserButton afterSignOutUrl="/" /> : <SignInButton />}</button>
+        {user && isLoaded ? <UserButton /> : <SignInButton />}
       </div>
     </div>
   );
