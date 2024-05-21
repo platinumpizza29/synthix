@@ -17,7 +17,7 @@ export default function HowItWorks() {
           </div>
         </div>
         <h1 className="font-bold">Generate Your Synthetic Data</h1>
-        <p className="text-start">Click on the "Generate" button to instantly create your custom dataset. Our advanced algorithms ensure the data is realistic, high-quality, and privacy-preserving.</p>
+        <p className="text-start">Click on the &quot;Generate&quot; button to instantly create your custom dataset. Our advanced algorithms ensure the data is realistic, high-quality, and privacy-preserving.</p>
       </div>
       <div className="flex flex-col justify-center items-center space-y-4">
         <div className="avatar placeholder">
