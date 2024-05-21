@@ -28,8 +28,6 @@ export default function HowItWorks() {
         <h1 className="font-bold">Download and Use Your Data</h1>
         <p className="text-start">Once the data is generated, download it in your preferred format (CSV, JSON, Excel). Use this data for testing, training, or enhancing your applications without compromising privacy or data quality.</p>
       </div>
-
-
     </div>
   )
 }
